@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Мой сайт</h1>
+
+   <nav>
+    <a href="index.html">Главная</a>
+    <a href="about.html">О нас</a>
+    <a href="services.html" class="active">Услуги</a>
+    <a href="contacts.html">Контакты</a>
+</nav>
+</header>
+
+<main class="services">
+
+    <h2>Наши услуги</h2>
+
+<div class="cards">
+
+    <div class="card">
+    <img src="images/photo.jpg" alt="Услуга 1">
+    <h3>Услуга 1</h3>
+    <p>ГЛАДИМ .</p>
+
+    <button onclick="showService('service1')">Подробнее</button>
+
+    <div id="service1" class="service-info">
+        Дополнительная информация об услуге 1.
+    </div>
+</div>
+
+       <div class="card">
+    <img src="images/photo2.jpg" alt="Услуга 2">
+    <h3>Услуга 2</h3>
+    <p>ЦЕЛУЕМ.</p>
+
+    <button onclick="showService('service2')">Подробнее</button>
+
+    <div id="service2" class="service-info">
+        Дополнительная информация об услуге 2.
+    </div>
+</div>
+
+       <div class="card">
+    <img src="images/photo3.jpg" alt="Услуга 3">
+    <h3>Услуга 3</h3>
+    <p>ТИСКАЕМ.</p>
+
+    <button onclick="showService('service3')">Подробнее</button>
+
+    <div id="service3" class="service-info">
+        Дополнительная информация об услуге 3.
+    </div>
+</div>
+</div>
+   
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
